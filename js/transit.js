@@ -13,7 +13,7 @@
 (function(root, factory) {
 
     if (typeof define === 'function' && define.amd) {
-        define(['js/jquery'], factory);
+        define(['github.io/js/jquery'], factory);
     } else if (typeof exports === 'object') {
         module.exports = factory(require('js/jquery'));
     } else {
